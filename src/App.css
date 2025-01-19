@@ -31,14 +31,12 @@
   position: relative;
   padding: 1em;
   width: auto;
-  justify-content: flex-start !important;
   width: 70%;
 }
 .input label {
   margin-right: 1em;
 }
 .input input {
-  margin-right: 10%;
   min-height: 3em;
   border-radius: 0.5em;
   text-align: center;
