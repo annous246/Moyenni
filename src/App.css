@@ -1,0 +1,72 @@
+.spanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#subContainer {
+  position: relative;
+  font-weight: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  background-color: #638eb2;
+  margin: 2em 1em;
+  border-radius: 0.9em;
+}
+#subContainer h4 {
+  position: relative;
+  background-color: #8bb2d1;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+.input {
+  position: relative;
+  padding: 1em;
+  width: auto;
+  justify-content: flex-start !important;
+  width: 70%;
+}
+.input label {
+  margin-right: 1em;
+}
+.input input {
+  margin-right: 10%;
+  min-height: 3em;
+  border-radius: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+}
+#last {
+  background-color: rgb(0, 255, 76);
+  margin: 1em;
+  border-radius: 1em;
+  padding: 1em;
+  border: 0.08em solid black;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+
+button:hover {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(151, 137, 137);
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  transition: 0.2s all;
+}
