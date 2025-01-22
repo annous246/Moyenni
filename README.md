@@ -1,8 +1,10 @@
-# React + Vite
+# Moyenni  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **Idea**  
+A React-based web app to quickly calculate semester-end averages, perfect for students and educators.  
 
-Currently, two official plugins are available:
+### **How It Was Done**  
+Developed in 2 hours using React's component-based structure for a real-time, user-friendly interface.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **What It Solves**  
+Simplifies average calculations, saving time and ensuring accuracy.  
