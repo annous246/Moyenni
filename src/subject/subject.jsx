@@ -18,7 +18,7 @@ function Subject({
     if (!p || !p.length) return true;
     let c = 0;
     for (let k = 0; k < p.length; k++) {
-      if (isNaN(parseInt(p[k]))) {
+      if (isNaN(parseFloat(p[k]))) {
         if (p[k] != ".") return false;
         c++;
       }
@@ -49,9 +49,9 @@ function Subject({
       ((tpValue && tpValue.length) || !tp) &&
       ((examValue && examValue.length) || !exam)
     ) {
-      const dsv = ds ? parseInt(dsValue) : 0;
-      const tpv = tp ? parseInt(tpValue) : 0;
-      const examv = exam ? parseInt(examValue) : 0;
+      const dsv = ds ? parseFloat(dsValue) : 0;
+      const tpv = tp ? parseFloat(tpValue) : 0;
+      const examv = exam ? parseFloat(examValue) : 0;
       const examc = mapper[title].exam;
       const dsc = mapper[title].ds;
       const tpc = mapper[title].tp;
